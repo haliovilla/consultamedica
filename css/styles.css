@@ -54,10 +54,16 @@ nav{
 .datos-paciente{
 	width: 100%;
 	display: table;
+	margin-bottom: 25px;
 }
 .foto-paciente{
 	width: 30%;
 	display: table-cell;
+	-webkit-box-siaing: border-box;
+	-moz-box-siaing: border-box;
+	-ms-box-siaing: border-box;
+	-o-box-siaing: border-box;
+	box-siaing: border-box;
 }
 	.foto-paciente img{
 		width: 100%;
@@ -68,4 +74,11 @@ nav{
 	display: table-cell;
 	vertical-align: middle;
 	border: 1px solid;
+	padding-left: 1em;
+	font-family: "Century Gothic";
+	font-size: 1.5em;
+	font-weight: bold;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
